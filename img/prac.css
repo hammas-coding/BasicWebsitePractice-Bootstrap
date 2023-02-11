@@ -1,0 +1,63 @@
+h1{
+    background-color: aqua;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    border-top-color: blueviolet;
+    border-bottom-width: 5px;
+    border-bottom-color:brown;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    margin-bottom: 20px 10px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+img{
+    width: 300px;
+    height: auto;
+    border: 3px double blue;
+padding:40px 20px;
+margin: 20px;
+box-sizing: border-box;
+/* padding-left: 10px;
+padding-right: 15px;
+padding-right: 5px;
+padding-left: 20px; */
+}
+#Mid{
+    margin: 10px 20px 30px 50px;
+}
+img:hover{
+    border: 4px solid green;
+}
+
+button{
+    background-color: antiquewhite;
+    border: 2px dotted darkmagenta;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(145, 112, 145) ;
+    border: 2px dotted rgb(139, 91, 29);
+    padding: 10px;
+}
+#content{
+    background-clip: content-box;
+}
+#padding{
+    background-clip: padding-box;
+}
+#border{
+background-clip: border-box;
+}
+h3{
+    background: linear-gradient(to left, #bbd2c5, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+h2{
+    background-color: antiquewhite;
+    display: inline-block;
+}
